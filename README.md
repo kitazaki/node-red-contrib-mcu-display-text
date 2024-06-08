@@ -6,7 +6,7 @@ Node to display Text ticker with Node-RED MCU
 
 There is mcu_displaytext node.  
 
-![palette](image/palette.jpg)
+![palette](./image/palette.jpg)
 
 ## How to use
 
@@ -28,11 +28,11 @@ npm install <folder_path>
 
 Node-RED flow  
 
-![flow](image/flow.png)
+![flow](./image/flow.png)
 
 ## Sample test
 
 Sample test on simulator  
 
-![sample](image/sample.gif)
+![sample](./image/sample.gif)
 

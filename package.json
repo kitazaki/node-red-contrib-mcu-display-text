@@ -1,6 +1,6 @@
 {
   "name": "@kitazaki/node-red-contrib-mcu-display-text",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "display TEXT with Node-RED MCU",
   "main": "mcu_displaytext.js",
   "engines": {
@@ -11,6 +11,11 @@
     "nodes": {
       "displaytext": "mcu_displaytext.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitazaki/node-red-contrib-mcu-display-text.git"
+
   },
   "keywords": [
     "node-red",
