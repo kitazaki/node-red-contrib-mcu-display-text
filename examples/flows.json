@@ -1,0 +1,72 @@
+[
+    {
+        "id": "5bfa726325056130",
+        "type": "mcu_displaytext",
+        "z": "d24542546ad998e2",
+        "name": "",
+        "moddable_manifest": {
+            "include": "manifest.json"
+        },
+        "_mcu": {
+            "mcu": true
+        },
+        "x": 320,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c610015b638e9bc2",
+        "type": "inject",
+        "z": "d24542546ad998e2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。",
+        "payloadType": "str",
+        "_mcu": {
+            "mcu": true
+        },
+        "x": 90,
+        "y": 460,
+        "wires": [
+            [
+                "5bfa726325056130",
+                "8c3ba8d64969b6b6"
+            ]
+        ]
+    },
+    {
+        "id": "8c3ba8d64969b6b6",
+        "type": "debug",
+        "z": "d24542546ad998e2",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "_mcu": {
+            "mcu": true
+        },
+        "x": 300,
+        "y": 500,
+        "wires": []
+    }
+]
