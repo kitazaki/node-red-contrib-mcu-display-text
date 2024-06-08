@@ -6,7 +6,7 @@ Node to display Text ticker with Node-RED MCU
 
 There is mcu_displaytext node.  
 
-![palette](image/palette.png)
+![palette](image/palette.jpg)
 
 ## How to use
 
