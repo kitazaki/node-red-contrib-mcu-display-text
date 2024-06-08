@@ -1,0 +1,28 @@
+{
+  "name": "@kitazaki/node-red-contrib-mcu-display-text",
+  "version": "0.0.1",
+  "description": "display TEXT with Node-RED MCU",
+  "main": "mcu_displaytext.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "node-red": {
+    "version": ">=3.0.0",
+    "nodes": {
+      "displaytext": "mcu_displaytext.js"
+    }
+  },
+  "keywords": [
+    "node-red",
+    "node-red-mcu",
+    "moddable",
+    "display",
+    "text"
+  ],
+  "author": "@kitazaki",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kitazaki/node-red-contrib-mcu-display-text/issues"
+  },
+  "homepage": "https://github.com/kitazaki/node-red-contrib-mcu-display-text#readme"
+}
